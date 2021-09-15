@@ -23,7 +23,7 @@ function validateBillAndCashAmount()
             calculateChange(amountToBeReturned);
 
         }else{
-            showMessage("Do you wanna wash plate?");
+            showMessage("Do you wanna wash plates?");
 
         }
     } else{
