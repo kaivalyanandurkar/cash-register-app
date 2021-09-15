@@ -1,12 +1,90 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+:root {
+    --black: #111827;
+    --white: #dff9fb;
+    --blue: #818CF8;
+    --yellow: #FEF3C7;
+    --red:#F87171;
+  }
+  
+
+  body{
+      background-color: var(--red)
+  }
+
+.description{
+    font-family: 'Roboto Slab', serif;
+}
+
+.heading {
+    font-size: 5rem;
+    font-family: 'Roboto Slab', serif;
+  
 
 }
 
+.cap{
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 1rem;
+}
 
+.description {
+    font-size: 1.5rem;
+}
+
+#bill-amount{
+    font-size: 1.3rem;
+}
+
+#cash-give{
+    font-size: 1.3rem;
+}
+
+#check-button{
+    margin: 1rem;
+    font-size: 1.3rem;
+}
 
 .container {
     display: flex;
     flex-direction: column;
     width: 50vw;
+    padding: 1rem;
+  align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius:1rem;
+    width: 100%;
 }
 
+.change-table {
+tr,
+th,
+td {
+  border: 2px solid var(--black);
+}
+}
+
+th {
+    background-color: var(--yellow);
+  }
+  
+  th,
+  td {
+    width: 100px;
+    padding: 5px;
+
+
+  }
+
+  table,
+tr,
+th,
+td {
+  border: 1px solid var(--black);
+}
+
+  
