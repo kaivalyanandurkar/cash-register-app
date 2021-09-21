@@ -22,6 +22,11 @@ function validateBillAndCashAmount()
             const amountToBeReturned = cashGiven.value - billAmount.value;
             calculateChange(amountToBeReturned);
 
+            if(cashGiven.value===billAmount.value){
+                showMessage("Bill Paid")
+            }
+
+
         }else{
             showMessage("Do you wanna wash plates?");
 
